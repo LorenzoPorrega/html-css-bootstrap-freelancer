@@ -1,6 +1,14 @@
+/* ---- GENERAL STYLES ---- */
+
+*{
+    color: white;
+}
+
+/* ---- HEADER---- */
+
 header{
     height: 60px;
-    color: white;
+    background-color: rgb(44, 62, 80);
 }
 
 .nav-bar{
@@ -12,5 +20,58 @@ header{
 }
 
 .nav-bar .btn{
-    
+    padding: 1px 12px;
+}
+
+/* ----- HERO SECTION ---- */
+
+.hero{
+    margin-top: 60px;
+    background-color: rgb(26, 188, 156);
+}
+
+.hero [class*="col-"]{
+    width: 100%;
+}
+
+.hero img{
+    width: 50%;
+    max-width: 250px;
+}
+
+.hero hr{
+    width: 15%;
+    opacity: 1;
+}
+
+/* ---- PORTFOLIO SECTION ---- */
+
+.portfolio img{
+    width: 100%;
+}
+
+/* ---- ABOUT SECTION ---- */
+
+.about{
+    background-color: rgb(26, 188, 156);
+}
+
+.about .btn:hover i{
+    color: black;
+    transition: 0.1s;
+}
+
+/* ---- CONTACT SECTION ---- */
+
+.contact button{
+    background-color: rgb(26, 188, 156);
+    border: 1px solid rgb(26, 188, 156);
+}
+
+.contact button:hover{
+    background-color: white;
+}
+
+.contact button:hover span{
+color: black;
 }
