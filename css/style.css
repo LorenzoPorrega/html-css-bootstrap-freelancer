@@ -4,34 +4,29 @@
     color: white;
 }
 
+body{
+    padding-top: 60px;
+}
+
+main{
+    overflow: auto;
+}
+
 /* ---- HEADER---- */
 
 header{
-    height: 60px;
     background-color: rgb(44, 62, 80);
 }
 
 .nav-bar{
-    height: 100%;
+    background-color: rgb(44, 62, 80);
 }
 
-.nav-bar .row{
-    height: 100%;
-}
-
-.nav-bar .btn{
-    padding: 1px 12px;
-}
 
 /* ----- HERO SECTION ---- */
 
 .hero{
-    margin-top: 60px;
     background-color: rgb(26, 188, 156);
-}
-
-.hero [class*="col-"]{
-    width: 100%;
 }
 
 .hero img{
@@ -70,6 +65,7 @@ header{
 
 .contact button:hover{
     background-color: white;
+    border: 1px solid rgb(26, 188, 156);
 }
 
 .contact button:hover span{
