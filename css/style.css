@@ -12,6 +12,27 @@ main{
     overflow: auto;
 }
 
+.widthed-hr{
+    max-width: 15%;
+    width: 10%;
+    opacity: 1;
+}
+
+.dark-grey-color{
+    color: rgb(51, 51, 51);
+}
+
+/*
+CLASSE PER NON SCRIVERE TUTTE LE CLASSI UTILITIES NEGLI INPUT DEL FORM - NON USATA
+.my-form{
+    border: 0;
+    border-bottom: 1px solid grey;
+    color: black;
+    padding: 0 0.25rem;
+    border-radius: 0;
+}
+*/
+
 /* ---- HEADER---- */
 
 header{
@@ -32,11 +53,6 @@ header{
 .hero img{
     width: 50%;
     max-width: 250px;
-}
-
-.widthed-hr{
-    width: 15%;
-    opacity: 1;
 }
 
 /* ---- PORTFOLIO SECTION ---- */
@@ -70,4 +86,29 @@ header{
 
 .contact button:hover span{
 color: black;
+}
+
+/* ---- FOOTER ---- */
+
+.footer-top{
+    background-color: rgb(58, 84, 109);
+}
+
+.footer-top .btn{
+    border-radius: 50%;
+    width: 40px;
+    aspect-ratio: 1/1;
+}
+
+.footer-top .btn:hover i{
+    color: rgb(58, 84, 109);
+}
+
+.link-footer-top{
+    text-decoration: none;
+    color: #1abc9c;
+}
+
+.footer-bottom{
+    background-color: rgb(44, 62, 80);
 }
